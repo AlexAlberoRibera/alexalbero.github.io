@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+:root {
+    --main-color: #16b93a;
+}
+
+header, section, footer {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 960px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+h2 {
+    border-bottom: 2px solid var(--main-color);
+    padding-bottom: 5px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+#idiomas {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.lengüages-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.lengüage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 180px;
+    text-align: center;
+}
+
+.lengüage span {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+#informatica {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.especialidades-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.especialidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 180px;
+    text-align: center;
+}
+
+.especialidades span {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#experiencia {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.contenidoexpe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.practica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 250px; /* Ajusta según necesidad */
+    text-align: center;
+}
+
+.practica span {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#formacion {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.educacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.educacion span {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
