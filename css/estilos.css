@@ -2,13 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: black;
+    color: white;
 }
 
 :root {
-    --main-color: #16b93a;
+    --main-color: #0d7524;
 }
+:root{
+    --section-color: black;
+}
+
 
 header, section, footer {
     margin: 20px auto;
@@ -30,11 +34,12 @@ h2 {
 }
 
 section {
-    background-color: #fff;
+    background-color: rgb(145, 190, 164);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin-bottom: 20px;
+    color: var(--section-color);
 }
 
 footer {
@@ -155,8 +160,31 @@ footer {
     width: 250px;
     text-align: center;
 }
-
+.titulo:hover{
+    background-color: rgb(28, 180, 135);
+    font-weight:bold;
+}
+.practica:hover{
+    background-color: gold;
+    font-weight:bold;
+}
+.especialidades:hover{
+    background-color: #440568;
+    font-weight:bold;
+}
+.lengüage:hover{
+    background-color: #943b08;
+    font-weight:bold;
+}
 .educacion span {
     font-size: 50px;
     margin-bottom: 10px;
+}
+.educacion span {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+footer>p a:hover{
+    color: red;
+    background-color: gray;
 }
