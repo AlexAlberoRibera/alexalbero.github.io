@@ -163,19 +163,39 @@ footer {
 .titulo:hover{
     background-color: rgb(28, 180, 135);
     font-weight:bold;
+    margin: 25px;
 }
 .practica:hover{
     background-color: gold;
     font-weight:bold;
+    margin: 25px;
 }
 .especialidades:hover{
     background-color: #440568;
     font-weight:bold;
+    margin: 11px;
 }
 .lengüage:hover{
     background-color: #943b08;
     font-weight:bold;
+    margin: 25px;
 }
+p:hover{
+    cursor:default;
+}
+h1:hover{
+    cursor:default;
+}
+h2:hover{
+    cursor:default;
+}
+h3:hover{
+    cursor:default;
+}
+span:hover{
+    cursor: default;
+}
+
 .educacion span {
     font-size: 50px;
     margin-bottom: 10px;
